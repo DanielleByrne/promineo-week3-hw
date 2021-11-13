@@ -168,16 +168,16 @@
 // the problem is to create a function that tells you if you should water your plants or not based on
 // a boolean to tell you if the soil is dry
 
-// let soilIsDry = true
+let soilIsDry = true
 
-// function waterPlants(isDry){
-//  if( isDry == true ){
-//      console.log("Time to water the plants!")
-//  } else {
-//      console.log("The plants don't need water today")
-//  }
+function waterPlants(isDry){
+ if( isDry == true ){
+     console.log("Time to water the plants!")
+ } else {
+     console.log("The plants don't need water today")
+ }
 
-// }
+}
 
 
-// waterPlants(true)
+waterPlants(true)
