@@ -1,43 +1,27 @@
-// function sumOfTwo(a, b){
-//     return a + b;
+// QUESTION ONE
+
+// let ages = [3, 9, 23, 64, 2, 8, 28, 93];
+
+// function subtractAges(array) {
+//   let firstNum = array.shift();
+//   let secondNum = array.pop();
+
+//   return secondNum - firstNum;
 // }
 
-// console.log(sumOfTwo(3))
-
-// function loopUntilX(num) {
-//   for (let i = 0; i < num; i++) {
-//     console.log(i);
+// function averageNumbers(array) {
+//   let sum = 0;
+//   for (let i = 0; i < array.length; i++) {
+//     sum += array[i];
 //   }
 
-//   return true;
+//   let average = sum / array.length;
+//   console.log(average);
+
+//   return sum;
 // }
 
-// console.log(loopUntilX("testing"));
+// averageNumbers(ages)
 
-// function findCircumference(radius) {
-//   return 2 * Math.PI * radius;
-// }
-
-// console.log(findCircumference(5))
-
-// function checkout(cardBalance, price) {
-//   if (price > cardBalance) {
-//     return false;
-//   } else {
-//     return cardBalance - price;
-//   }
-// }
-
-
-// console.log(checkout(500, 100))
-
-// function speakFriend(password){
-//     if(password == "Mellon" ){
-//         return "Enter"
-//     } else {
-//         return "Access Denied"
-//     }
-// }
-
-
-// console.log(speakFriend("mellon"))
+// QUESTION 2
+// let names = ["Sam", "Tommy", "Tim", "Sally", "Buck", "Bob"]
